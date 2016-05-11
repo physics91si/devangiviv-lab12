@@ -3,3 +3,9 @@ Record your regexes in this file.
 Example:
 this regex matches a calendar year (1990, 2001, etc.)
 [12]?[0-9]{3}
+
+this regex matches an email 
+((\w)*\.)*(\w)+\@((\w)*\.)*(\w)+
+
+this regex matches a date in MM/DD/YY
+(([0][1-9])|([1][12]))\/(([0][1-9])|([1-2][0-9])|([3][01]))\/[0-9][0-9]
